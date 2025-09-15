@@ -1,0 +1,34 @@
+{"tags":[
+    { "name":"CICD", "description":"Continuous Integration & Continuous Delivery", "style":"badge-primary"},
+    { "name":"JS", "description":"Javascript", "style":"badge-warning"},
+    { "name":"Apex", "description":"Apex", "style":"badge-success"},
+    { "name":"Batch", "description":"Batch", "style":"badge-secondary"}
+ ],
+ "items":[
+    { 
+        "name":"Apex - Record Type Bypass on Lightning", 
+        "folder":"Apex - Record Type Bypass on Lightning", 
+        "sourceFile":[
+            "aura/OverrideRTSelectionEvtPrtnAcctCmp/OverrideRTSelectionEvtPrtnAcctCmp.cmp", 
+            "aura/OverrideRTSelectionEvtPrtnAcctCmp/OverrideRTSelectionEvtPrtnAcctCmp.cmp-meta.xml", 
+            "aura/OverrideRTSelectionEvtPrtnAcctCmp/OverrideRTSelectionEvtPrtnAcctCmp.design", 
+            "aura/OverrideRTSelectionEvtPrtnAcctCmp/OverrideRTSelectionEvtPrtnAcctCmpController.js", 
+            "aura/OverrideRTSelectionEvtPrtnAcctCmp/OverrideRTSelectionEvtPrtnAcctCmpHelper.js", 
+            "aura/OverrideSubmissionAccountCmp/OverrideSubmissionAccountCmp.cmp",
+            "aura/OverrideSubmissionAccountCmp/OverrideSubmissionAccountCmp.cmp-meta.xml",
+            "aura/OverrideSubmissionAccountCmp/OverrideSubmissionAccountCmp.design",
+            "aura/OverrideSubmissionAccountCmp/OverrideSubmissionAccountCmpController.js",
+            "aura/OverrideSubmissionAccountCmp/OverrideSubmissionAccountCmpHelper.js",
+            "classes/OverrideRTSelectionController_Test.cls",
+            "classes/OverrideRTSelectionController.cls",
+            "classes/OverrideSubmissionAccountController.cls",
+            "classes/OverrideSubmissionAccountController.cls-meta.xml",
+            "classes/OverrideSubmissionAccountControllerTest.cls",
+            "classes/OverrideSubmissionAccountControllerTest.cls-meta.xml"
+        ],
+        "description":"This is an Example component that allows the automatic selection of a Record Type (based on some criteria), and thus skipping the Record Type selection form. It also contains an example component that pre-populates a field on the 'New' form.", 
+        "authors":["Francisco Carapuça"], 
+        "categories":["Apex"] 
+    }
+ ]
+}
